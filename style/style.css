@@ -1,0 +1,69 @@
+/*CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f3ef;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+}
+
+#iconBusca {
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    left: 5px;
+    opacity: 0.5;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    margin-right: 8px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+    overflow: hidden;
+}
+  
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+}
+  
+#divBusca img{
+    float:left;
+}
+
+.login {
+    color: #FFF;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 50px;
+    line-height: 30px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.login:hover {
+    transform: scale(1.02);
+}
