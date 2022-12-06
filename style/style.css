@@ -14,8 +14,8 @@
 
 #all {
     background-color: #f8f3ef;
-    width: 80%;
-    height: 80%;
+    width: 1100px;
+    height: 1100px;
     margin: auto;
     font-family: 'HendrixBold', Times, serif;
 }
@@ -26,6 +26,10 @@
     align-items: center;
     border-bottom: solid 1px #dbd7d3;
     padding: 15px;
+}
+
+.logotipo {
+    height: 38px;
 }
 
 #divBusca{
