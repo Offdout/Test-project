@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de medidas</title>
+    <link rel="stylesheet" href="/style/conversor-medida.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Conversor de Unidades de Distância</h2>
+        <div class="fila">
+            <span>Converter de </span>
+            <select name="unidad1" id="unidad1">
+                <option value="Quilômetro">Quilômetro</option>
+                <option value="Hectômetro">Hectômetro</option>
+                <option value="Decâmetro">Decâmetro</option>
+                <option value="Metro">Metro</option>
+                <option value="Decímetro">Decímetro</option>
+                <option value="Centímetro">Centímetro</option>
+                <option value="Milímetro">Milímetro</option>
+            </select>
+            <span>a</span>
+            <select name="unidad2" id="unidad2">
+                <option value="Quilômetro">Quilômetro</option>
+                <option value="Hectômetro">Hectômetro</option>
+                <option value="Decâmetro">Decâmetro</option>
+                <option value="Metro">Metro</option>
+                <option value="Decímetro">Decímetro</option>
+                <option value="Centímetro">Centímetro</option>
+                <option value="Milímetro">Milímetro</option>
+            </select>
+        </div>
+
+        <input type="number" id="valor" placeholder="Valor">
+
+        <div class="resultado" id="resultado">
+            - -
+        </div>
+    </div>
+
+    <script src="/js/conversor-medida.js"></script>
+</body>
+</html>
