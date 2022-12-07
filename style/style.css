@@ -59,6 +59,7 @@
     height: 32px;
     width:191px;
     overflow: hidden;
+    outline: none;
 }
   
 #divBusca img{
@@ -123,6 +124,8 @@
 }
 
 .projects {
+    background-size: cover;
+    background-position: center;
     width: 240px;
     height: 360px;
     border: solid 1px black;
