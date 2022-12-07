@@ -124,8 +124,6 @@
 }
 
 .projects {
-    background-size: cover;
-    background-position: center;
     width: 240px;
     height: 360px;
     border: solid 1px black;
