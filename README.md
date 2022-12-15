@@ -1,3 +1,3 @@
-My first project to learn - a test website
+### Test project to learn - a website
 
-"Offdout project" is just a repository for myself to test and learn
+This repository is just for me to test and learn
